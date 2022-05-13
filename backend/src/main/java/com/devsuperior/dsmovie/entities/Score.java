@@ -19,6 +19,10 @@ public class Score {
 	public void setMovie(Movie movie) {
 		this.id.setMovie(movie);
 	}
+	
+	public void setUser(User user) {
+		this.id.setUser(user);
+	}
 
 	public ScorePK getId() {
 		return id;
